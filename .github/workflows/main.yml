@@ -1,0 +1,21 @@
+name: Notify GenCode on Push
+on:
+  push:
+    branches:
+      - main
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send HTTP Request
+        run: |
+          curl -X POST "https://gencode-api.hirednow.ai/web-api/servers/trigger-deployment" \
+          -H "Content-Type: application/json" \
+          --retry 5 \
+          --retry-delay 2 \
+          -d '{
+            "repository": "${{ github.repository }}",
+            "branch": "${{ github.ref }}",
+            "commit": "${{ github.sha }}",
+            "commit_message": "${{ github.event.head_commit.message }}"
+          }'
