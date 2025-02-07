@@ -13,7 +13,8 @@ export default function Home() {
     Friday: "TGIF! Time to wrap up the week's tasks.",
     Saturday: "Relax and enjoy your weekend!",
     Sunday: "Time to recharge and prepare for the week ahead.",
-    otherDays: "BV and Manu are the greatest people in the world"
+    otherDays: "BV and Manu are the greatest people in the world",
+    moneyTime: "Let's go get some money"
   };
 
   return (
