@@ -12,7 +12,8 @@ export default function Home() {
     Thursday: "The weekend is almost in sight! Stay focused.",
     Friday: "TGIF! Time to wrap up the week's tasks.",
     Saturday: "Relax and enjoy your weekend!",
-    Sunday: "Time to recharge and prepare for the week ahead."
+    Sunday: "Time to recharge and prepare for the week ahead.",
+    otherDays: "BV and Manu are the greatest people in the world"
   };
 
   return (
