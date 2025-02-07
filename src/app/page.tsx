@@ -15,7 +15,12 @@ export default function Home() {
     Sunday: "Time to recharge and prepare for the week ahead.",
     otherDays: "BV and Manu are the greatest people in the world",
     moneyTime: "Let's go get some money",
-    HelloThere: "What is up my man?"
+    HelloThere: "What is up my man?",
+    BetterEngineer: "You are a better engineer than you think you are",
+    BetterDeveloper: "You are a better developer than you think you are",
+    BetterDesigner: "You are a better designer than you think you are",
+    BetterManager: "You are a better manager than you think you are",
+    BetterLeader: "You are a better leader than you think you are",
   };
 
   return (
