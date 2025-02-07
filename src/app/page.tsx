@@ -14,7 +14,8 @@ export default function Home() {
     Saturday: "Relax and enjoy your weekend!",
     Sunday: "Time to recharge and prepare for the week ahead.",
     otherDays: "BV and Manu are the greatest people in the world",
-    moneyTime: "Let's go get some money"
+    moneyTime: "Let's go get some money",
+    HelloThere: "What is up my man?"
   };
 
   return (
