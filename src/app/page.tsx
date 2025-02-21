@@ -21,6 +21,7 @@ export default function Home() {
     BetterDesigner: "You are a better designer than you think you are",
     BetterManager: "You are a better manager than you think you are",
     BetterLeader: "You are a better leader than you think you are",
+    ANotherButtons: "Click me to see another button",
   };
 
   return (
