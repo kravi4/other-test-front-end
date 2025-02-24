@@ -22,7 +22,6 @@ export default function Home() {
     BetterManager: "You are a better manager than you think you are",
     BetterLeader: "You are a better leader than you think you are",
     ANotherButtons: "Click me to see another button",
-    CSU_GLOBAL_HACKATHON: "CSU Global Hackathon is the best hackathon in the world",
   };
 
   return (
